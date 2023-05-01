@@ -1,10 +1,16 @@
 import KEYS from './keys.js';
-        
+
 class VirtualKeyboard {
   constructor() {
     // создаем контейнер для клавиатуры
     this.container = document.createElement('div');
     this.container.classList.add('keyboard-container');
+
+    // создаем текстовое поле
+    this.input = document.createElement('input');
+    this.input.setAttribute('type', 'text');
+    this.input.classList.add('keyboard-text');
+    document.body.appendChild(this.input);
 
     // создаем элементы клавиатуры
     KEYS.forEach((key) => {
@@ -22,7 +28,7 @@ class VirtualKeyboard {
     });
 
     // добавляем контейнер на страницу
-    document.body.appendChild(this.container);
+    document.body.insertBefore(this.container, this.input);
   }
 
   on(eventName, callback) {
