@@ -4,7 +4,7 @@ const KEYS = [
     "key":"`",
     "shiftKeyEN":"~",
     "keyRu":"ё","shiftKeyRu":"Ё",
-    "group":"alphanumeric"
+    "group":"base"
   },
   {
     "code":"Digit1",
@@ -12,7 +12,7 @@ const KEYS = [
     "shiftKeyEN":"!",
     "keyRu":"1",
     "shiftKeyRu":"!",
-    "group":"alphanumeric"
+    "group":"base"
   },
   {
     "code":"Digit2",
@@ -20,7 +20,7 @@ const KEYS = [
     "shiftKeyEN":"@",
     "keyRu":"2",
     "shiftKeyRu":"\\",
-    "group":"alphanumeric"
+    "group":"base"
   },
   {
     "code":"Digit3",
@@ -28,7 +28,7 @@ const KEYS = [
     "shiftKeyEN":"#",
     "keyRu":"3",
     "shiftKeyRu":"№",
-    "group":"alphanumeric"
+    "group":"base"
     },
     {
       "code":"Digit4",
@@ -36,7 +36,7 @@ const KEYS = [
       "shiftKeyEN":"$",
       "keyRu":"4",
       "shiftKeyRu":";",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit5",
@@ -44,7 +44,7 @@ const KEYS = [
       "shiftKeyEN":"%",
       "keyRu":"5",
       "shiftKeyRu":"%",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit6",
@@ -52,7 +52,7 @@ const KEYS = [
       "shiftKeyEN":"^",
       "keyRu":"6",
       "shiftKeyRu":":",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit7",
@@ -60,7 +60,7 @@ const KEYS = [
       "shiftKeyEN":"&",
       "keyRu":"7",
       "shiftKeyRu":"?",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit8",
@@ -68,7 +68,7 @@ const KEYS = [
       "shiftKeyEN":"*",
       "keyRu":"8",
       "shiftKeyRu":"*",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit9",
@@ -76,7 +76,7 @@ const KEYS = [
       "shiftKeyEN":"(",
       "keyRu":"9",
       "shiftKeyRu":"(",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Digit0",
@@ -84,7 +84,7 @@ const KEYS = [
       "shiftKeyEN":")",
       "keyRu":"0",
       "shiftKeyRu":")",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Minus",
@@ -92,7 +92,7 @@ const KEYS = [
       "shiftKeyEN":"_",
       "keyRu":"-",
       "shiftKeyRu":"_",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Equal",
@@ -100,7 +100,7 @@ const KEYS = [
       "shiftKeyEN":"+",
       "keyRu":"=",
       "shiftKeyRu":"+",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Backspace",
@@ -118,7 +118,7 @@ const KEYS = [
       "shiftKeyEN":"Q",
       "keyRu":"й",
       "shiftKeyRu":"Й",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyW",
@@ -126,7 +126,7 @@ const KEYS = [
       "shiftKeyEN":"W",
       "keyRu":"ц",
       "shiftKeyRu":"Ц",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyE",
@@ -134,7 +134,7 @@ const KEYS = [
       "shiftKeyEN":"E",
       "keyRu":"у",
       "shiftKeyRu":"У",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyR",
@@ -142,7 +142,7 @@ const KEYS = [
       "shiftKeyEN":"R",
       "keyRu":"к",
       "shiftKeyRu":"К",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyT",
@@ -150,7 +150,7 @@ const KEYS = [
       "shiftKeyEN":"T",
       "keyRu":"е",
       "shiftKeyRu":"Е",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyY",
@@ -158,7 +158,7 @@ const KEYS = [
       "shiftKeyEN":"Y",
       "keyRu":"н",
       "shiftKeyRu":"Н",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyU",
@@ -166,14 +166,14 @@ const KEYS = [
       "shiftKeyEN":"U",
       "keyRu":"г",
       "shiftKeyRu":"Г",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyI",
       "key":"i",
       "shiftKeyEN":"I",
       "keyRu":"ш","shiftKeyRu":"Ш",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyO",
@@ -181,14 +181,14 @@ const KEYS = [
       "shiftKeyEN":"O",
       "keyRu":"щ",
       "shiftKeyRu":"Щ",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyP",
       "key":"p",
       "shiftKeyEN":"P",
       "keyRu":"з","shiftKeyRu":"З",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"BracketLeft",
@@ -196,7 +196,7 @@ const KEYS = [
       "shiftKeyEN":"{",
       "keyRu":"х",
       "shiftKeyRu":"Х",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"BracketRight",
@@ -204,7 +204,7 @@ const KEYS = [
       "shiftKeyEN":"}",
       "keyRu":"ъ",
       "shiftKeyRu":"Ъ",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Backslash",
@@ -212,7 +212,7 @@ const KEYS = [
       "shiftKeyEN":"|",
       "keyRu":"\\\\",
       "shiftKeyRu":"/",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Delete",
@@ -230,7 +230,7 @@ const KEYS = [
       "shiftKeyEN":"A",
       "keyRu":"ф",
       "shiftKeyRu":"Ф",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyS",
@@ -238,7 +238,7 @@ const KEYS = [
       "shiftKeyEN":"S",
       "keyRu":"ы",
       "shiftKeyRu":"Ы",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyD",
@@ -246,7 +246,7 @@ const KEYS = [
       "shiftKeyEN":"D",
       "keyRu":"в",
       "shiftKeyRu":"В",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyF",
@@ -254,7 +254,7 @@ const KEYS = [
       "shiftKeyEN":"F",
       "keyRu":"а",
       "shiftKeyRu":"А",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyG",
@@ -262,7 +262,7 @@ const KEYS = [
       "shiftKeyEN":"G",
       "keyRu":"п",
       "shiftKeyRu":"П",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyH",
@@ -270,7 +270,7 @@ const KEYS = [
       "shiftKeyEN":"H",
       "keyRu":"р",
       "shiftKeyRu":"Р",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyJ",
@@ -278,7 +278,7 @@ const KEYS = [
       "shiftKeyEN":"J",
       "keyRu":"о",
       "shiftKeyRu":"О",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyK",
@@ -286,7 +286,7 @@ const KEYS = [
       "shiftKeyEN":"K",
       "keyRu":"л",
       "shiftKeyRu":"Л",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyL",
@@ -294,7 +294,7 @@ const KEYS = [
       "shiftKeyEN":"L",
       "keyRu":"д",
       "shiftKeyRu":"Д",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Semicolon",
@@ -302,7 +302,7 @@ const KEYS = [
       "shiftKeyEN":":",
       "keyRu":"ж",
       "shiftKeyRu":"Ж",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Quote",
@@ -310,7 +310,7 @@ const KEYS = [
       "shiftKeyEN":"\\",
       "keyRu":"э",
       "shiftKeyRu":"Э",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Enter",
@@ -328,7 +328,7 @@ const KEYS = [
       "shiftKeyEN":"Z",
       "keyRu":"я",
       "shiftKeyRu":"Я",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyX",
@@ -336,7 +336,7 @@ const KEYS = [
       "shiftKeyEN":"X",
       "keyRu":"ч",
       "shiftKeyRu":"Ч",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyC",
@@ -344,7 +344,7 @@ const KEYS = [
       "shiftKeyEN":"C",
       "keyRu":"с",
       "shiftKeyRu":"С",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyV",
@@ -352,7 +352,7 @@ const KEYS = [
       "shiftKeyEN":"V",
       "keyRu":"м",
       "shiftKeyRu":"М",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyB",
@@ -360,7 +360,7 @@ const KEYS = [
       "shiftKeyEN":"B",
       "keyRu":"и",
       "shiftKeyRu":"И",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyN",
@@ -368,7 +368,7 @@ const KEYS = [
       "shiftKeyEN":"N",
       "keyRu":"т",
       "shiftKeyRu":"Т",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"KeyM",
@@ -376,14 +376,14 @@ const KEYS = [
       "shiftKeyEN":"M",
       "keyRu":"ь",
       "shiftKeyRu":"Ь",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Comma",
       "key":",",
       "shiftKeyEN":"<",
       "keyRu":"б","shiftKeyRu":"Б",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Period",
@@ -391,7 +391,7 @@ const KEYS = [
       "shiftKeyEN":">",
       "keyRu":"ю",
       "shiftKeyRu":"Ю",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"Slash",
@@ -399,7 +399,7 @@ const KEYS = [
       "shiftKeyEN":"?",
       "keyRu":".",
       "shiftKeyRu":",",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"ArrowUp",
@@ -432,7 +432,7 @@ const KEYS = [
       "shiftKeyEN":" ",
       "keyRu":" ",
       "shiftKeyRu":" ",
-      "group":"alphanumeric"
+      "group":"base"
     },
     {
       "code":"AltRight",
