@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-button:focus-visible{
+button:focus-visible {
   outline: none;
 }
 
@@ -21,7 +22,9 @@ button:focus-visible{
   width: 900px;
 }
 
-.keyboard-input {  
+.keyboard-input {
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
   width: 800px;
   overflow: hidden;
   overflow-wrap: break-word;
@@ -35,20 +38,25 @@ button:focus-visible{
 
 .keyboard-input:focus {
   outline: none;
+  overflow: auto;
 }
 
 .keyboard-container {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   width: 855px;
   margin: 0 auto;
   padding: 10px;
-  box-shadow: 5px 8px 9px  #b6ffb7;
+  box-shadow: 5px 8px 9px #b6ffb7;
   background: #888888;
   border-radius: 10px;
 }
-
+*::selection {
+  background: inherit;
+  color: inherit;
+}
 .key {
+  display: inline-block;
   border-radius: 7px;
   box-shadow: 2px 4px 5px #000000;
   cursor: pointer;
@@ -62,7 +70,7 @@ button:focus-visible{
   vertical-align: middle;
   margin-bottom: 7px;
   position: relative;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .key:hover {
@@ -70,6 +78,7 @@ button:focus-visible{
 }
 .key.active {
   background-color: #fcd247e4;
+  transform: translate(-5px, -5px);
 }
 
 .service {
@@ -77,49 +86,49 @@ button:focus-visible{
   font-size: 20px;
 }
 
-
 .hover {
   box-shadow: none;
   top: 2px;
   left: 2px;
-  background-color: #fcd247e4;  
+  background-color: #fcd247e4;
 }
 
 .description {
   color: rgb(201, 203, 203);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
+  align-items: center;
   width: 68%;
 }
 
 /* Button*/
-#Backspace {
+.key[data-code="Backspace"] {
   width: 140px;
   margin-right: 0;
   font-size: 30px;
 }
 
-#Tab {
+.key[data-code="Tab"] {
   width: 85px;
 }
 
-#CapsLock,
-#ShiftLeft {
+.key[data-code="CapsLock"],
+.key[data-code="ShiftLeft"] {
   width: 140px;
 }
 
-#Enter,
-#ShiftRight {
+.key[data-code="Enter"],
+.key[data-code="ShiftRight"] {
   width: 105px;
 }
 
-#Enter,
-#ShiftRight,
-#Delete,
-#ControlRight {
+.key[data-code="Enter"],
+.key[data-code="ShiftRight"],
+.key[data-code="Delete"],
+.key[data-code="ControlRight"] {
   margin-right: 0;
 }
 
-#Space {
+.key[data-code="Space"] {
   width: 415px;
 }
