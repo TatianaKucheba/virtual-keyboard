@@ -1,4 +1,4 @@
-const KEYS = [
+export default [
   {
     "code":"Backquote",
     "key":"`",
